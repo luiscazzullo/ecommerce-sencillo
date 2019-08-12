@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+p, a, label {
+    font-family: 'Catamaran', sans-serif;
+    line-height: 21px;
+}
+
+label {
+    font-size: 14px;
+}
+
+html {
+    font-size: 16px; /* R O O T   R E M ' S */
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Arimo', sans-serif;
+}
+
+
+.header {
+    align-items: center;
+    background: rgb(1,51,64);
+    background: radial-gradient(circle, rgba(1,51,64,1) 13%, rgba(19,81,97,1) 44%, rgba(86,181,205,1) 80%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-container {
+    width: 7rem;
+}
+
+.brand-container img {
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding: 1rem;
+}
+
+li a {
+    color: black;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: white;
+}
+
+/*  H E R O */
+.hero {
+    background: #F1FCFF;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 1.5rem;
+    font-family: 'Arimo', sans-serif;
+    padding: 4rem;
+}
+
+/* P R O D U C T S   C A R D S*/
+.products {
+    display: flex;
+    justify-content: center;
+    margin-top: -8rem;
+    padding: 15%;
+}
+
+.product {
+    padding: 0.625rem;
+}
+
+.product-content {
+    background: white;
+    box-shadow: 4px 4px 8px #c1bcbc;
+    padding: 1rem;
+}
+
+.product-content p {
+    margin: 16px 0;
+}
+
+.image-content {
+    margin: auto;
+    width: 6.25rem;
+}
+
+.image-content img {
+    width: 100%;
+}
+
+.main_btn {
+    background: #013340;
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    margin-top: 0.5rem;
+    padding: 0.625rem;
+    width: 100%;
+}
+
+.main_btn:hover {
+    background: #03161c;
+}
+
+/* B E N E F I T S*/
+
+.benefits {
+    background: #135161;
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+}
+
+.benefit {
+    background: white;
+    box-shadow: 5px 6px 2px #c1bcbc;
+    flex: 0 0 30%;
+    margin-top: -3rem;
+    padding: 1rem 1rem;
+}
+
+.benefit-image {
+   margin: auto; 
+   width: 5rem; 
+}
+
+.benefit-image img {
+    width: 100%;
+}
+
+.benefit p {
+    text-align: left;
+}
+
+/* S O C I A L   M E N T I O N S */
+
+.social-mentions {
+    background: #F1FCFF;
+    text-align: center;
+}
+
+.social-mentions h3 {
+    font-size: 1.5em;
+    padding: 1rem;
+}
+
+.people-mentions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.people-container {
+    background: white;
+    border: 1px solid #A9B0B1;
+    flex: 0 0 20%;
+}
+
+.people-container h4 {
+    text-align: left;
+}
+
+.people-container p {
+    text-align: left;
+}
+
+.people-image img {
+    width: 100%;
+}
+
+/* F O O T E R*/
+
+footer {
+    background: #A9B0B1;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* V E N T A*/
+
+.pay-form-container {
+    background: white;
+    box-shadow: 5px 6px 2px #c1bcbc;
+    padding: 10px;
+    margin: 5rem 0;
+}
+
+.pay-form-container .image-container img {
+    width: 100%;
+}
+
+.pay-form-container input {
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 10px;
+    height: 35px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+<!--
+1 - #135161 - Azul medio
+2 - #013340 - Azul oscuro
+3 - #A9B0B1 - Gris
+4 - #56B5CD - Celeste
+5 - #F1FCFF - Casi blanco
+
+https://www.colourlovers.com/palette/4659721/Oh_so_blue
+-->
+*/

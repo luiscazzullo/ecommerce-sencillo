@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+
+    .products {
+        display: inherit;
+        height: auto;
+    }
+
+    .benefits {
+        display: inherit;
+    }
+
+    .benefit {
+        margin-top: 1rem;
+    }
+
+    .people-mentions {
+        display: inherit;
+    }
+
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Luis Gabriel Cazzullo">
+    <title>Producto</title>
+    <link rel="stylesheet" href="./css/styles.css"><!-- M A I N  C S S -->
+    <link rel="stylesheet" href=""><!-- Normalize -->
+    <link rel="stylesheet" href="./css/mobile.css"><!-- Mobile -->
+    <link rel="stylesheet" href="./css/animation.css"><!-- Animations -->
+    <link rel="stylesheet" href="./css/grid.css"><!-- Grid System -->
+    <link rel="stylesheet" href="./css/producto.css"><!-- Product Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Catamaran&display=swap" rel="stylesheet"><!-- Arimo: title fonts, Catamaran: body fonts -->
+</head>
+<body>
+
+    <!-- H E A D E R :   B R A N D   &   N A V -->
+    <header class="header fadeInDown">
+        <div class="brand-container">
+            <img src="./images/logo.png" alt="Logo">
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-container">
+                <li class="navbar-items"><a href="./index.html">Inicio</a></li>
+                <li class="navbar-items"><a href="./producto.html">Productos</a></li>
+                <li class="navbar-items"><a href="./venta.html">Comprar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- E N D   H E A D E R -->
+
+    <!-- F O R M-->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-4">
+                <div class="pay-form-container">
+                    <div class="image-container">
+                        <img src="./images/beneficios-2.png" alt="" />
+                    </div>
+                    <h3>Producto 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="pay-form-container">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=75EE3N7XH95RS" method="post">
+                        <label for="name">Nombre</label><br />
+                        <input name="name" type="text" />
+                        <br />
+                        <label for="email">E-mail</label><br />
+                        <input name="email" type="email" />
+                        <br />
+                        <label for="phone">Teléfono</label><br />
+                        <input name="phone" type="text" />
+
+                        <input type="submit" name="submit" class="main_btn"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- E N D   F O R M -->
+
+    <footer>
+        <h6>Derechos Reservados a Luis Gabriel Cazzullo</h6>
+    </footer>
+    
+
+</body>
+</html>
